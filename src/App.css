@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  margin-bottom: 25px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.input input {
+  width: 400px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.input button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  background: rgba(0, 0, 255, 0.674);
+  color: white;
+}
+
+.board {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.box {
+  width: 45%;
+  min-height: 300px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgb(233, 218, 218);
+}
+
+.pendingbox  {
+  border-top: 5px solid orange;
+}
+
+.completedbox{
+  border-top: 5px solid green;
+}
+
+.taskcard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 7px;
+
+}
+
+.completedbox {
+  background: white;
+}
+
+.deletebtn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 5px;
+  
+}
